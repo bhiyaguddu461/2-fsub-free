@@ -25,7 +25,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 OWNER = os.environ.get("OWNER", "GHOST")
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5333099884"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7115098385"))
 
 #Port
 PORT = os.environ.get("PORT", "8018")
@@ -43,8 +43,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {first}</b>\n\nmuth marna band kr de dusro ko sex krte dekh muth marne maja aata kya?? cuck ho? eww bhai imagine tumhara brain itna fucked up ho chuka hai ki tum dusro ko sex krte dekh maja ata sad bhai ye sab band kr do @brainsaga if you want bot like this </a></b>")
 try:
-    ADMINS=[5333099884]
-    for x in (os.environ.get("ADMINS", "").split()):
+    ADMINS=[7115098385]
+    for x in (os.environ.get("ADMINS", "7115098385").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -53,7 +53,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "👋 Hello {first}!\nTo access these files you have to join our channel first.\nPlease subscribe to our channels through the buttons below and then tap on try again to get your files.\nThank You ❤️")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>By @brainsaga</a>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>By @JBLTOXIC</a>")
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
@@ -65,7 +65,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(5333099884)
+ADMINS.append(7115098385)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
