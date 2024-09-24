@@ -8,9 +8,9 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 @Bot.on_callback_query()
 async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
-    if data == "about":
+    if data == "more":
         await query.message.edit_text(
-          text = f"<b>○ Creator : @brainsaga\n </b>",
+          text = f"<b>○ Creator : @brainsaga\n for more disturbin.com/collection</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
