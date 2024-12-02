@@ -108,8 +108,7 @@ async def start_command(client: Client, message: Message):
 
 WAIT_MSG = """"<b>Processing ....</b>"""
 
-REPLY_ERROR = """<code>This is file sharebot made for @leakhubd . 
-made by @Devkayyum.</code>"""
+REPLY_ERROR = """<code>This is file sharing bot, made with love.</code>"""
 
 #=====================================================================================##
 
@@ -165,7 +164,7 @@ async def send_text(client: Bot, message: Message):
         deleted = 0
         unsuccessful = 0
         
-        pls_wait = await message.reply("<i>Broadcast ho rha hai sahabji </i>")
+        pls_wait = await message.reply("<i>Broadcast is in process </i>")
         for chat_id in query:
             try:
                 await broadcast_msg.copy(chat_id)
